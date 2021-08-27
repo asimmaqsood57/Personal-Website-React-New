@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  font-family: "Spartan", sans-serif;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+
+  margin-top: 12rem;
+  border-top: 16px solid #3498db;
+  border-bottom: 16px solid #1115fc;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.container-spin {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.container-fluid {
+  border: 2px solid white;
+  padding: 0%;
+}
+
+a {
+  text-decoration: none;
+}
+nav {
+  position: sticky;
+}
+
+.row {
+  /* margin: 15px; */
+  /* border: 2px solid white; */
+
+  margin: 3rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.footer {
+  color: white;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+#more {
+  display: none;
+}
+#more2 {
+  display: none;
+}
+#more3 {
+  display: none;
+}
+.cols {
+  /* display: inline-block; */
+  /* margin: 13px; */
+  /* height: 300px; */
+  padding: 1rem;
+
+  /* border: 2px solid white; */
+}
+
+.whymelist {
+  height: 30px;
+  width: 30px;
+}
+
+.paragraph {
+  margin-top: 1rem;
+}
+.introparent {
+  padding-left: 7rem;
+  padding-top: 3rem;
+}
+.intro {
+  height: 16rem;
+}
+.skillslogos {
+  height: 100px;
+  width: 100px;
+}
+.footerimgicons {
+  width: 25px;
+  height: 25px;
+}
+.center {
+  text-align: center;
+}
+
+.footermyintro {
+  color: white;
+}
+
+.btn {
+  border-radius: 100px;
+}
+
+.footermyintro img {
+  height: 150px;
+  width: 150px;
+
+  border-radius: 5rem;
+}
+
+.facebookbtn {
+  background-color: #4267b2;
+}
+
+.copyright {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
