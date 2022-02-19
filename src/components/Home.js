@@ -3,6 +3,9 @@ import React from "react";
 import html from "../images/html5.png";
 import java from "../images/java.png";
 import cpp from "../images/c++.png";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 import mysql from "../images/mysql.png";
 import firebase from "../images/firebase.png";
 import express from "../images/express.svg";
@@ -18,12 +21,18 @@ import nodejs from "../images/nodejs.png";
 import uiux from "../images/ui ux.png";
 import bootstrap from "../images/bootstrap.png";
 
+AOS.init();
+AOS.refresh();
 export default function Home() {
   return (
     <>
       <div className="container-fluid">
         <div className="row center">
-          <div className="cols col-sm-5 my-3 mx-4 tracking-in-contract">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="2500"
+            className="cols col-sm-5 my-3 mx-4 tracking-in-contract"
+          >
             <h1 className="my-5">
               Hello! <br />
               I'm your Full-Stack Web Developer (MERN). <br />
@@ -37,7 +46,11 @@ export default function Home() {
               </a>
             </h1>
           </div>
-          <div className="cols col-sm-4 my-3 mx-4 center">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="2500"
+            className="cols col-sm-4 my-3 mx-4 center"
+          >
             <h3 className="my-4">Why me..??</h3>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
@@ -90,7 +103,11 @@ export default function Home() {
           <strong>Skills</strong>
         </h2>
         <div className="row">
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">HTML 5</h3>
             <img
               src={html}
@@ -102,7 +119,11 @@ export default function Home() {
               skelton.
             </p>
           </div>
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">CSS 3</h3>
             <img
               src="https://blog.leonhassan.co.uk/content/images/2019/09/css3.svg"
@@ -114,7 +135,11 @@ export default function Home() {
               attractive website.
             </p>
           </div>
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">JavaScript</h3>
             <img
               src={js}
@@ -126,7 +151,11 @@ export default function Home() {
               brain of website.
             </p>
           </div>
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">Bootstrap</h3>
             <img
               src={bootstrap}
@@ -137,7 +166,11 @@ export default function Home() {
               It is used to build responsive websites. It is a css framework.
             </p>
           </div>
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">UI/UX</h3>
             <img
               src={uiux}
@@ -148,7 +181,11 @@ export default function Home() {
               It refers to any interaction a user has with a product or service.
             </p>
           </div>
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">Typist</h3>
             <img
               src={typist}
@@ -157,7 +194,11 @@ export default function Home() {
             />
             <p className="paragraph">Speed upto 35-40 wpm</p>
           </div>
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">Node Js</h3>
             <img
               src={nodejs}
@@ -169,7 +210,11 @@ export default function Home() {
               the V8 engine{" "}
             </p>
           </div>
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">React Js</h3>
             <img
               src={react}
@@ -181,7 +226,11 @@ export default function Home() {
               building user interfaces or UI components.
             </p>
           </div>
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">MongoDB</h3>
             <img
               src={mongodb}
@@ -193,7 +242,11 @@ export default function Home() {
               database program.
             </p>
           </div>
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">Express Js</h3>
             <img
               src={express}
@@ -205,7 +258,11 @@ export default function Home() {
               framework for Node.js.
             </p>
           </div>
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">PHP</h3>
             <img src={php} alt="Html5 logo" className="skillslogos img-fluid" />
             <p className="paragraph">
@@ -213,7 +270,11 @@ export default function Home() {
               development.
             </p>
           </div>
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">Mysql</h3>
             <img
               src={mysql}
@@ -225,7 +286,11 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">Firebase</h3>
             <img
               src={firebase}
@@ -238,7 +303,11 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">C++</h3>
             <img src={cpp} alt="Html5 logo" className="skillslogos img-fluid" />
             <p className="paragraph">
@@ -246,7 +315,11 @@ export default function Home() {
               Classes".
             </p>
           </div>
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">Java</h3>
             <img
               src={java}
@@ -261,11 +334,19 @@ export default function Home() {
         </div>
       </div>
       <div className="container-fluid">
-        <h2 className="center my-4">
+        <h2
+          data-aos="slide-up"
+          data-aos-duration="3000"
+          className="center my-4"
+        >
           <strong>Projects </strong>
         </h2>
         <div className="row">
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">To Do List</h3>
             <img
               src="https://icon-library.com/images/list-icon-png/list-icon-png-27.jpg"
@@ -276,7 +357,11 @@ export default function Home() {
               It is a website where users can write their important notes.
             </p>
           </div>
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">Current Time</h3>
             <img
               src="https://img.icons8.com/pastel-glyph/2x/clock.png"
@@ -287,7 +372,11 @@ export default function Home() {
               It is a website where users can check current Date and Time.
             </p>
           </div>
-          <div className="cols col-sm-3 my-3 mx-4 center">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="3000"
+            className="cols col-sm-3 my-3 mx-4 center"
+          >
             <h3 className="my-2">My Portfolio</h3>
             <img
               src="https://cdn4.iconfinder.com/data/icons/folders-blue/64/194_folder-job-portfolio-person-512.png"

@@ -2,7 +2,8 @@ import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
-
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
 import About from "./components/About";
 import { Switch, Route } from "react-router-dom";
 import Blogs from "./components/Blogs";
