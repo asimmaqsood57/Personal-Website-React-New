@@ -29,7 +29,7 @@ export default function Home() {
       <div className="container-fluid">
         <div className="row center">
           <div
-            data-aos="fade-up"
+            data-aos="slide-right"
             data-aos-duration="2500"
             className="cols col-sm-5 my-3 mx-4 tracking-in-contract"
           >
@@ -47,7 +47,7 @@ export default function Home() {
             </h1>
           </div>
           <div
-            data-aos="fade-up"
+            data-aos="slide-left"
             data-aos-duration="2500"
             className="cols col-sm-4 my-3 mx-4 center"
           >

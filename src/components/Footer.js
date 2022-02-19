@@ -1,11 +1,25 @@
 import React from "react";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import asim from "../images/asim.jpg";
+AOS.init();
+AOS.refresh();
 export default function Footer() {
   return (
-    <div style={{ backgroundColor: "#007bff" }} className="container-fluid">
+    <div
+      data-aos="slide-up"
+      data-aos-duration="1000"
+      style={{ backgroundColor: "#007bff" }}
+      className="container-fluid"
+    >
       <div className="row center">
-        <div className="cols col-sm-5 my-3 mx-4 footermyintro">
+        <div
+          data-aos="slide-right"
+          data-aos-duration="3000"
+          className="cols col-sm-5 my-3 mx-4 footermyintro"
+        >
           <h3 className="my-4">About Me</h3>
           <img src={asim} className="my-3 img-fluid" alt="" />
           <p>
@@ -16,7 +30,11 @@ export default function Footer() {
             freelancer.
           </p>
         </div>
-        <div className="cols col-sm-4 my-3 mx-4 center footer">
+        <div
+          data-aos="slide-left"
+          data-aos-duration="3000"
+          className="cols col-sm-4 my-3 mx-4 center footer"
+        >
           <h3 className="my-2">Social Media</h3>
           <ul
             className="list-group list-group-flush"

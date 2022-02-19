@@ -1,9 +1,19 @@
 import React from "react";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+AOS.refresh();
+
 export default function Contact() {
   return (
     <div>
-      <div class="container-fluid">
+      <div
+        data-aos="slide-down"
+        data-aos-duration="3000"
+        class="container-fluid"
+      >
         <h2 class="center my-4">
           <strong>Contact</strong>{" "}
         </h2>
@@ -27,7 +37,8 @@ export default function Contact() {
                 </a>
               </p>
               <p>
-                <strong>Phone : </strong> +92-3015846975
+                <strong>Phone : </strong>{" "}
+                <a href="tel:+923015846975">+92-3015846975</a>
               </p>
             </p>
           </div>

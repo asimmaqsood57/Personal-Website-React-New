@@ -1,9 +1,20 @@
 import React from "react";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
+AOS.refresh();
+
 export default function About() {
   return (
     <div>
-      <div className="container-fluid">
+      <div
+        data-aos="slide-down"
+        data-aos-duration="3000"
+        className="container-fluid"
+      >
         <h2 className="center my-4">
           <strong>Education</strong>
         </h2>

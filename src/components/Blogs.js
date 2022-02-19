@@ -1,7 +1,13 @@
 import React from "react";
 
 import programming from "../images/what is programming.jpeg";
-import SoftwareEngineers from "../images/Software Engineers.jpg";
+// import SoftwareEngineers from "../images/Software Engineers.jpg";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+AOS.refresh();
 
 export default function Blogs() {
   return (
@@ -11,7 +17,7 @@ export default function Blogs() {
         <strong>Blogs</strong>{" "}
       </h2>
 
-      <div className="container">
+      <div data-aos="slide-up" data-aos-duration="3000" className="container">
         <h3 className="text-center">
           <strong> 1- What is Programming?</strong>
         </h3>
