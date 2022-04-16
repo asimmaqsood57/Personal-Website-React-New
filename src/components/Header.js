@@ -21,10 +21,7 @@ export default function Header() {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div
-        className="collapse d-flex navbar-collapse"
-        id="navbarSupportedContent"
-      >
+      <div className="collapse  navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav  mr-auto">
           <li className="nav-item ">
             <Link className="nav-link active" to="/">

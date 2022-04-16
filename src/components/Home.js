@@ -106,7 +106,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 mx-4 center skill-card"
           >
             <h3 className="my-2">HTML 5</h3>
             <img
@@ -122,7 +122,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 mx-4 center skill-card"
           >
             <h3 className="my-2">CSS 3</h3>
             <img
@@ -138,7 +138,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 mx-4 center skill-card"
           >
             <h3 className="my-2">JavaScript</h3>
             <img
@@ -154,7 +154,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 mx-4 center skill-card"
           >
             <h3 className="my-2">Bootstrap</h3>
             <img
@@ -169,7 +169,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 mx-4 center skill-card"
           >
             <h3 className="my-2">UI/UX</h3>
             <img
@@ -184,7 +184,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 mx-4 center skill-card"
           >
             <h3 className="my-2">Typist</h3>
             <img
@@ -197,7 +197,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 mx-4 center skill-card"
           >
             <h3 className="my-2">Node Js</h3>
             <img
@@ -213,7 +213,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 mx-4 center skill-card"
           >
             <h3 className="my-2">React Js</h3>
             <img
@@ -229,7 +229,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 mx-4 center skill-card"
           >
             <h3 className="my-2">MongoDB</h3>
             <img
@@ -245,7 +245,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 mx-4 center skill-card"
           >
             <h3 className="my-2">Express Js</h3>
             <img
@@ -261,7 +261,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 mx-4 center skill-card"
           >
             <h3 className="my-2">PHP</h3>
             <img src={php} alt="Html5 logo" className="skillslogos img-fluid" />
@@ -273,7 +273,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 mx-4 center skill-card"
           >
             <h3 className="my-2">Mysql</h3>
             <img
@@ -289,7 +289,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 mx-4 skill-card center"
           >
             <h3 className="my-2">Firebase</h3>
             <img
@@ -306,7 +306,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 mx-4 center skill-card"
           >
             <h3 className="my-2">C++</h3>
             <img src={cpp} alt="Html5 logo" className="skillslogos img-fluid" />
@@ -318,7 +318,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 mx-4 center skill-card"
           >
             <h3 className="my-2">Java</h3>
             <img
@@ -345,7 +345,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 skill-card my-3 mx-4 center"
           >
             <h3 className="my-2">To Do List</h3>
             <img
@@ -360,7 +360,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 skill-card mx-4 center"
           >
             <h3 className="my-2">Current Time</h3>
             <img
@@ -375,7 +375,7 @@ export default function Home() {
           <div
             data-aos="slide-up"
             data-aos-duration="3000"
-            className="cols col-sm-3 my-3 mx-4 center"
+            className="cols col-sm-3 my-3 mx-4 center skill-card"
           >
             <h3 className="my-2">My Portfolio</h3>
             <img

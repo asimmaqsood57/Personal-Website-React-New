@@ -8,6 +8,13 @@
   font-family: "Spartan", sans-serif;
 }
 
+
+.skill-card{
+
+border: 1px solid grey;
+box-shadow: 6px 8px 2px 2px rgb(0 0 0 / 17%);
+border-radius: 8px;
+}
 .loader {
   border: 16px solid #f3f3f3;
 
